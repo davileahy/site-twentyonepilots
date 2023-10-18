@@ -1,28 +1,78 @@
-#logo{
-    font-size: small;
+/* *{
+    padding: 0;
+    margin: 0;
+} */
+
+body {
+    background-color: #121212;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+    background-image: url(Imagens/8c1a4061-bddc-4baa-b841-66f1e9b2da55.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover
 }
 
-
-/* .topnav{
-    background-color: #333;
-    overflow: hidden;
-}
-
-.topnav a{
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
+a {
     text-decoration: none;
-    font-size: 17px;
-}
-
-.topnav a:hover{
-    background-color: #ddd;
     color: black;
 }
 
-.topnav a.active{
-    background-color: #04AA6D;
-    color: white;
+a:hover{
+    transition: 0.5;
+    color: #FFF000;
+}
+
+nav {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 28%)
+}
+
+ul {
+    list-style-type: none;
+    padding: 30px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+li {
+    opacity: 1;
+    margin-inline: 100px;
+}
+
+footer {
+    text-align: center;
+}
+
+#imgTransparentes {
+    justify-content: center;
+    opacity: 70%;
+}
+
+#imgTransparentes:hover {
+    transition: 0.5s ease-in-out;
+    opacity: 100%;
+}
+
+#logo-bf {
+    padding: 15px 10px;
+    position: absolute;
+    top: 10x;
+    left: 20px;
+    width: 296px;
+    height: 73.1px;
+}
+
+#logo-sai {
+    width: 40px;
+    height: 60px;
+}
+
+/* 
+@font-face {
+    src: url("Tenebra.otf");
+    font-family: Tenebra;
 } */
