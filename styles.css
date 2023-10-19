@@ -1,11 +1,12 @@
 body {
     background-color: #121212;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Nunito', sans-serif;
     color: whitesmoke;
-    background-image: url(Imagens/8c1a4061-bddc-4baa-b841-66f1e9b2da55.jpeg);
+    /* background-image: url(Imagens/8c1a4061-bddc-4baa-b841-66f1e9b2da55.jpeg);
     background-repeat: no-repeat;
-    background-size: cover
+    background-size: cover; */
 }
+
 
 nav a{
     text-decoration: none;
@@ -17,20 +18,12 @@ nav a:hover{
     color: #FFF000;
     transition: 0.1s ease-in-out;
 }
-#insta {
-    text-decoration: none;
-    color: #FFF000;
-}
-
-#insta:hover{
-    color: #000000;
-}
 
 nav {
     padding: 0;
     margin: 0;
     text-align: center;
-    background-color: rgba(255, 255, 255, 28%)
+    background-color: rgba(255, 255, 255, 28%);
     
 }
 nav img{
@@ -48,7 +41,6 @@ nav ul {
     justify-content: center;
     font-size: 40px;
     text-decoration: none;
-    color: ;
 }
 
 nav li {
@@ -59,6 +51,15 @@ nav li {
 
 footer {
     text-align: center;
+}
+
+#insta {
+    text-decoration: none;
+    color: #FFF000;
+}
+
+#insta:hover{
+    color: #000000;
 }
 
 #imgTransparentes {
@@ -86,4 +87,19 @@ footer {
 #logo-sai {
     width: 40px;
     height: 60px;
+}
+
+.centerImages img {
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    margin: 30px;
+    padding: 0px;
+    box-shadow: 20px 20px 30px rgb(0, 0, 0);
+}
+
+.centerImages ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
 }
