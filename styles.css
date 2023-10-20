@@ -17,6 +17,7 @@ nav a{
 nav a:hover{
     color: #FFF000;
     transition: 0.1s ease-in-out;
+    transform: ;
 }
 
 nav {
@@ -65,13 +66,21 @@ footer {
 #imgTransparentes {
     justify-content: center;
     opacity: 100%;
-    transition: 0.5s ease-in-out;
+    transition: transform 0.5s ease-in-out;
     filter: saturate(0%);
 }
 
+/* #imgTransparentes:hover {
+    opacity: 100%;
+    transform: translateY(-20px);
+    transition: 0.3s ease-in-out;
+    filter: saturate(100%);
+} */
+
 #imgTransparentes:hover {
     opacity: 100%;
-    transition: 0.1s ease-in-out;
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
     filter: saturate(100%);
 }
 
