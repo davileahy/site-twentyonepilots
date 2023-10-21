@@ -1,0 +1,71 @@
+body {
+    background-color: #121212;
+    font-family: 'Nunito', sans-serif;
+    color: whitesmoke;
+    background-image: url(Imagens/fundo_discografia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* css principais, que tem em todas as principais paginas */
+#logo-bf {
+    padding: 15px 10px;
+    position: absolute;
+    top: 10x;
+    left: 20px;
+    width: 296px;
+    height: 73.1px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: 0.6s ease-in-out;
+}
+
+nav a:hover {
+    color: #FFF000;
+    transition: 0.1s ease-in-out;
+    transform: ;
+}
+
+nav {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 28%);
+
+}
+
+nav img {
+    filter: invert(0%);
+}
+
+nav img:hover {
+    filter: invert(100%);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 30px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+nav li {
+    opacity: 1;
+    margin-inline: 100px;
+
+}
+
+footer {
+    text-align: center;
+}
+
+#logo-sai {
+    width: 40px;
+    height: 60px;
+}
+/* fim das css principais */

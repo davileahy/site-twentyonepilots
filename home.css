@@ -2,19 +2,28 @@ body {
     background-color: #121212;
     font-family: 'Nunito', sans-serif;
     color: whitesmoke;
-    /* background-image: url(Imagens/8c1a4061-bddc-4baa-b841-66f1e9b2da55.jpeg);
+    background-image: url(Imagens/fundo_home.jpg);
     background-repeat: no-repeat;
-    background-size: cover; */
+    background-size: cover;
 }
 
+/* css principais, que tem em todas as principais paginas */
+#logo-bf {
+    padding: 15px 10px;
+    position: absolute;
+    top: 10x;
+    left: 20px;
+    width: 296px;
+    height: 73.1px;
+}
 
-nav a{
+nav a {
     text-decoration: none;
     color: rgb(0, 0, 0);
     transition: 0.6s ease-in-out;
 }
 
-nav a:hover{
+nav a:hover {
     color: #FFF000;
     transition: 0.1s ease-in-out;
     transform: ;
@@ -25,15 +34,17 @@ nav {
     margin: 0;
     text-align: center;
     background-color: rgba(255, 255, 255, 28%);
-    
+
 }
-nav img{
+
+nav img {
     filter: invert(0%);
 }
 
-nav img:hover{
+nav img:hover {
     filter: invert(100%);
 }
+
 nav ul {
     list-style-type: none;
     padding: 30px;
@@ -47,19 +58,26 @@ nav ul {
 nav li {
     opacity: 1;
     margin-inline: 100px;
-    
+
 }
 
 footer {
     text-align: center;
 }
 
+#logo-sai {
+    width: 40px;
+    height: 60px;
+}
+
+/* fim das css principais */
+
 #insta {
     text-decoration: none;
     color: #FFF000;
 }
 
-#insta:hover{
+#insta:hover {
     color: #000000;
 }
 
@@ -82,33 +100,4 @@ footer {
     transform: scale(1.1);
     transition: 0.3s ease-in-out;
     filter: saturate(100%);
-}
-
-#logo-bf {
-    padding: 15px 10px;
-    position: absolute;
-    top: 10x;
-    left: 20px;
-    width: 296px;
-    height: 73.1px;
-}
-
-#logo-sai {
-    width: 40px;
-    height: 60px;
-}
-
-.centerImages img {
-    text-align: center;
-    width: 300px;
-    height: 300px;
-    margin: 30px;
-    padding: 0px;
-    box-shadow: 20px 20px 30px rgb(0, 0, 0);
-}
-
-.centerImages ul {
-    display: flex;
-    list-style-type: none;
-    align-items: center;
 }
