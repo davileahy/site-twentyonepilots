@@ -81,8 +81,11 @@ footer {
     color: #000000;
 }
 
+.menu_principal{
+    text-align: center;
+}
+
 #imgTransparentes {
-    justify-content: center;
     opacity: 100%;
     transition: transform 0.5s ease-in-out;
     filter: saturate(0%);

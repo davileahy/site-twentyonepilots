@@ -6,6 +6,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 /* css principais, que tem em todas as principais paginas */
 #logo-bf {
     padding: 15px 10px;
@@ -57,6 +58,7 @@ nav li {
     opacity: 1;
     margin-inline: 100px;
 
+
 }
 
 footer {
@@ -69,11 +71,22 @@ footer {
 }
 /* fim das css principais */
 
-.album_covers img{
-    justify-content: center;
-    width: 300px;
-    height: 300px;
-    margin: 10px;
+.albuns{
+    text-align: center;
+}
+
+#albumCovers {
+    transition:0.5s ease-in-out;
+    width: 230px;
+    height: 230px;
+    filter: saturate(0%);
+    margin: 300px 30px 0px 30px;
     padding: 0%;
-    box-shadow: 10px 10px 10px #121212;
+    box-shadow: 20px 20px 40px #000000;
+}
+
+#albumCovers:hover{
+    transition: 0.5s ease-in-out;
+    filter: saturate(100%);
+    transform: translateY(-200px) scale(140%);
 }
