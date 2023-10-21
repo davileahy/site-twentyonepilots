@@ -25,7 +25,6 @@ nav a {
 nav a:hover {
     color: #FFF000;
     transition: 0.1s ease-in-out;
-    transform: ;
 }
 
 nav {
@@ -69,3 +68,12 @@ footer {
     height: 60px;
 }
 /* fim das css principais */
+
+.album_covers img{
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    padding: 0%;
+    box-shadow: 10px 10px 10px #121212;
+}
