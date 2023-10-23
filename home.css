@@ -2,21 +2,21 @@ body {
     background-color: #121212;
     font-family: 'Nunito', sans-serif;
     color: whitesmoke;
-    background-image: url(Imagens/fundo_home.jpg);
+    background-image: url(Imagens/fundo_home.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 /* css principais, que tem em todas as principais paginas */
 #logo-bf {
-    padding: 15px 10px;
-    position: absolute;
-    top: 10x;
-    left: 20px;
     width: 296px;
     height: 73.1px;
 }
 
+#logo_github{
+    width: 50px;
+    height: 50px;
+}
 nav a {
     text-decoration: none;
     color: rgb(0, 0, 0);
@@ -39,26 +39,31 @@ nav {
 
 nav img {
     filter: invert(0%);
+    transition: 0.5s ease-in-out;
 }
 
 nav img:hover {
     filter: invert(100%);
+    transition: 0.3s ease-in-out;
 }
 
 nav ul {
+    font-size: 40px;
     list-style-type: none;
+    text-decoration: none;
     padding: 30px;
     margin: 0px;
     display: flex;
     justify-content: center;
-    font-size: 40px;
-    text-decoration: none;
+    align-items: center;
 }
 
 nav li {
-    opacity: 1;
-    margin-inline: 100px;
+    margin-inline: 90px;
+}
 
+#home{
+    color: #FFF000;
 }
 
 footer {
@@ -86,6 +91,7 @@ footer {
 }
 
 #imgTransparentes {
+    margin: 60px 30px 80px 30px;
     opacity: 100%;
     transition: transform 0.5s ease-in-out;
     filter: saturate(0%);
@@ -100,7 +106,14 @@ footer {
 
 #imgTransparentes:hover {
     opacity: 100%;
-    transform: scale(1.1);
+    transform: scale(1.1) translateY(-50px);
     transition: 0.3s ease-in-out;
     filter: saturate(100%);
+}
+
+.texto_meio{
+    color: #000000;
+    text-align: center;
+    font-size: 30px;
+    margin: 0px 0px 0px 0px;
 }

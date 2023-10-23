@@ -9,14 +9,14 @@ body {
 
 /* css principais, que tem em todas as principais paginas */
 #logo-bf {
-    padding: 15px 10px;
-    position: absolute;
-    top: 10x;
-    left: 20px;
     width: 296px;
     height: 73.1px;
 }
 
+#logo_github{
+    width: 50px;
+    height: 50px;
+}
 nav a {
     text-decoration: none;
     color: rgb(0, 0, 0);
@@ -26,6 +26,7 @@ nav a {
 nav a:hover {
     color: #FFF000;
     transition: 0.1s ease-in-out;
+    
 }
 
 nav {
@@ -38,27 +39,31 @@ nav {
 
 nav img {
     filter: invert(0%);
+    transition: 0.5s ease-in-out;
 }
 
 nav img:hover {
     filter: invert(100%);
+    transition: 0.3s ease-in-out;
 }
 
 nav ul {
     list-style-type: none;
     padding: 30px;
-    margin: 0px;
+    margin: 0px 0px 0px 0px;
     display: flex;
     justify-content: center;
+    align-items: center;
     font-size: 40px;
     text-decoration: none;
 }
 
 nav li {
-    opacity: 1;
-    margin-inline: 100px;
+    margin-inline: 90px;
+}
 
-
+#discografia{
+    color: #FFF000;
 }
 
 footer {
@@ -69,24 +74,27 @@ footer {
     width: 40px;
     height: 60px;
 }
+
 /* fim das css principais */
 
-.albuns{
-    text-align: center;
+.albuns .selecao{
+    display: flex;
+    justify-content: center;
+    transition: 0.6s;
+    
 }
-
-#albumCovers {
-    transition:0.5s ease-in-out;
+.albumCovers {
     width: 230px;
     height: 230px;
-    filter: saturate(0%);
-    margin: 300px 30px 0px 30px;
-    padding: 0%;
-    box-shadow: 20px 20px 40px #000000;
+    margin: 30px 0px 30px 0px;
+    transition: 0.6s;
 }
 
-#albumCovers:hover{
-    transition: 0.5s ease-in-out;
-    filter: saturate(100%);
-    transform: translateY(-200px) scale(140%);
+
+
+.albuns:hover > :not(:hover){
+    filter: saturate(0%);
 }
+
+
+
