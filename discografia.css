@@ -7,76 +7,6 @@ body {
     background-size: cover;
 }
 
-/* css principais, que tem em todas as principais paginas */
-#logo-bf {
-    width: 296px;
-    height: 73.1px;
-}
-
-#logo_github{
-    width: 50px;
-    height: 50px;
-}
-nav a {
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    transition: 0.6s ease-in-out;
-}
-
-nav a:hover {
-    color: #FFF000;
-    transition: 0.1s ease-in-out;
-    
-}
-
-nav {
-    padding: 0;
-    margin: 0;
-    text-align: center;
-    background-color: rgba(255, 255, 255, 28%);
-
-}
-
-nav img {
-    filter: invert(0%);
-    transition: 0.5s ease-in-out;
-}
-
-nav img:hover {
-    filter: invert(100%);
-    transition: 0.3s ease-in-out;
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 30px;
-    margin: 0px 0px 0px 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 40px;
-    text-decoration: none;
-}
-
-nav li {
-    margin-inline: 90px;
-}
-
-#discografia{
-    color: #FFF000;
-}
-
-footer {
-    text-align: center;
-}
-
-#logo-sai {
-    width: 40px;
-    height: 60px;
-}
-
-/* fim das css principais */
-
 .musicas{
     text-align: center;
 }
@@ -84,6 +14,10 @@ footer {
 .retangulo{
     margin: 20px 0px 0px 0px;
     border-radius: 50px;
+}
+
+.spotify{
+    filter: drop-shadow(18px 18px 20px #000000);
 }
 
 .albuns{
@@ -97,7 +31,7 @@ footer {
 #albumCovers {
     width: 230px;
     height: 230px;
-    margin: 0px 0px 0px 0px;
+    margin: 30px 0px 0px 0px;
     padding: 0px;
     border-radius: 10px;
     transition: 0.6s ease-in-out;
@@ -111,7 +45,6 @@ footer {
 .selecao:hover > :not(:hover){
     filter: saturate(0) opacity(50%);
     transform: scale(0.9) ;
-;
 }
 
 
