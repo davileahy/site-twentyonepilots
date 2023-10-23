@@ -77,24 +77,41 @@ footer {
 
 /* fim das css principais */
 
-.albuns .selecao{
-    display: flex;
-    justify-content: center;
-    transition: 0.6s;
-    
+.musicas{
+    text-align: center;
 }
-.albumCovers {
+
+.retangulo{
+    margin: 20px 0px 0px 0px;
+    border-radius: 50px;
+}
+
+.albuns{
+    text-align: center;
+}
+
+.selecao{
+    display:inline-block ;
+}
+
+#albumCovers {
     width: 230px;
     height: 230px;
-    margin: 30px 0px 30px 0px;
-    transition: 0.6s;
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    border-radius: 10px;
+    transition: 0.6s ease-in-out;
 }
 
-
-
-.albuns:hover > :not(:hover){
-    filter: saturate(0%);
+#albumCovers:hover{
+    transition: 0.3s ease-in-out;
+    transform: translateY(-20px) scale(106%) ;
 }
 
+.selecao:hover > :not(:hover){
+    filter: saturate(0) opacity(50%);
+    transform: scale(0.9) ;
+;
+}
 
 
