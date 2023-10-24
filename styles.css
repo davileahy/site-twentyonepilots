@@ -23,26 +23,18 @@ nav a:hover {
 nav {
     padding: 0;
     margin: 0;
+    border-radius: 10px;
     text-align: center;
-    background-color: rgba(255, 255, 255, 28%);
+    
+    background-image: linear-gradient(to top, #f3cf05 0%, #eba204 80%);
 
-}
-
-nav img {
-    filter: invert(0%);
-    transition: 0.5s ease-in-out;
-}
-
-nav img:hover {
-    filter: invert(100%);
-    transition: 0.3s ease-in-out;
 }
 
 nav ul {
     font-size: 40px;
     list-style-type: none;
     text-decoration: none;
-    padding: 30px;
+    padding: 05px;
     margin: 0px;
     display: flex;
     justify-content: center;
@@ -50,7 +42,7 @@ nav ul {
 }
 
 nav li {
-    margin-inline: 90px;
+    margin-inline: 40px;
 }
 
 #home{
@@ -70,6 +62,11 @@ footer img {
 #logo-sai {
     width: 40px;
     height: 60px;
+}
+
+#icons {
+    width: 30px;
+    height: 30px;
 }
 
 /* fim das css principais */

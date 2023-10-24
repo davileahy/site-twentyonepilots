@@ -7,31 +7,35 @@ body {
     background-size: cover;
 }
 
-.musicas{
-    text-align: center;
+iframe {
+    display: none;
+    margin: 0px 10px 0px 10px;
 }
-
-.retangulo{
-    margin: 20px 0px 0px 0px;
-    border-radius: 50px;
-}
-
-.spotify{
-    filter: drop-shadow(18px 18px 20px #000000);
-}
+/* CLASSE COMEÇA AQUI */
 
 .albuns{
     text-align: center;
 }
 
 .selecao{
-    display:inline-block ;
+    display: flex;
+    justify-content: center;
 }
 
+
+input:checked + .conteudo_ativado iframe{
+    display: block;
+}
+
+input[type="checkbox"]  {
+    display: none;
+ }
+ 
+/* ID COMEÇA AQUI*/
 #albumCovers {
     width: 230px;
     height: 230px;
-    margin: 30px 0px 0px 0px;
+    margin: 50px 10px 0px 10px;
     padding: 0px;
     border-radius: 10px;
     transition: 0.6s ease-in-out;
@@ -39,12 +43,9 @@ body {
 
 #albumCovers:hover{
     transition: 0.3s ease-in-out;
-    transform: translateY(-20px) scale(106%) ;
+    transform: translateY(-10px);
+    cursor: pointer;
 }
 
-.selecao:hover > :not(:hover){
-    filter: saturate(0) opacity(50%);
-    transform: scale(0.9) ;
-}
 
 
