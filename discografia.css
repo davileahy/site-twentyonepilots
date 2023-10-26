@@ -3,8 +3,9 @@ body {
     font-family: 'Nunito', sans-serif;
     color: whitesmoke;
     /* background-image: url(Imagens/fundo_discografia.jpg); */
+    /* background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%); */
+    background-size: 100%;
     background-repeat: no-repeat;
-    background-size: cover;
 }
 
 iframe {
@@ -23,14 +24,16 @@ iframe {
     justify-content: center;
 }
 
-
-input:checked + .conteudo_ativado iframe{
-    display: block;
-}
-
 input[type="checkbox"]  {
     display: none;
  }
+ 
+input:checked + .conteudo_ativado iframe{
+    display: block;
+
+}
+
+
  
 /* ID COMEÇA AQUI*/
 #albumCovers {
