@@ -2,14 +2,15 @@ body {
     background-color: #121212;
     font-family: 'Nunito', sans-serif;
     color: whitesmoke;
-    background-image: url(Imagens/fundo_discografia.jpg);
+    /* background-image: url(Imagens/fundo_discografia.jpg); */
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 iframe {
     display: none;
-    margin: 0px 10px 0px 10px;
+    margin: 50px 0px 0px 0px;
+    
 }
 /* CLASSE COMEÇA AQUI */
 
@@ -35,7 +36,7 @@ input[type="checkbox"]  {
 #albumCovers {
     width: 230px;
     height: 230px;
-    margin: 50px 10px 0px 10px;
+    margin: 50px 60px 0px 60px;
     padding: 0px;
     border-radius: 10px;
     transition: 0.6s ease-in-out;

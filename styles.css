@@ -1,16 +1,15 @@
 /* css principais, que tem em todas as principais paginas */
 #logo-bf {
-    width: 296px;
-    height: 73.1px;
+    scale: 0.6;
+    filter: invert(100%) drop-shadow(5px 5px 1px rgb(0, 0, 0));
+    margin-left: 0px;
+    margin-right: 60px;
+    
 }
 
-#logo_github{
-    width: 50px;
-    height: 50px;
-}
 nav a {
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     transition: 0.6s ease-in-out;
 }
 
@@ -20,33 +19,19 @@ nav a:hover {
     
 }
 
-nav {
-    padding: 0;
-    margin: 0;
-    border-radius: 10px;
-    text-align: center;
-    
-    background-image: linear-gradient(to top, #f3cf05 0%, #eba204 80%);
-
-}
-
 nav ul {
-    font-size: 40px;
+    font-size: 30px;
     list-style-type: none;
     text-decoration: none;
-    padding: 05px;
+    padding: 0px;
     margin: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-nav li {
-    margin-inline: 40px;
-}
-
-#home{
-    color: #FFF000;
+nav li{
+   margin-inline: 30px;
 }
 
 footer {
@@ -58,6 +43,10 @@ footer img {
     transition: 0.5s ease-in-out;
 }
 
+#logo_github{
+    width: 50px;
+    height: 50px;
+}
 
 #logo-sai {
     width: 40px;
@@ -65,8 +54,8 @@ footer img {
 }
 
 #icons {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
 }
 
 /* fim das css principais */

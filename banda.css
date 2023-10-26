@@ -11,33 +11,39 @@ body {
     text-align: center;
 }
 
-#tyler_cueca{
+.selecao{
+    position: relative;
+    top:0px;
+    left: 0px;
+}
+
+.cueca{
+    transition: 0.7s ease-in-out;
     position: absolute;
-    top: 340px;
-    left: 720px;
-    text-align: center;
+    top: 80px;
+    left: 712px;
     transition: 0.7s ease-in-out;
 }
 
+
+#tyler_cueca{
+    transition: 0.5s ease-in-out;
+}
+
+#josh_cueca{
+    transition: 0.5s ease-in-out;
+}
 #tyler_cueca:hover{
     transition: 0.3s ease-in-out;
     transform: translateY(-20px) scale(104%) ;
 
 }
-
-#josh_cueca{
-    position: absolute;
-    top: 320px;
-    left: 977px;
-    transition: 0.7s ease-in-out;
-}
-
 #josh_cueca:hover{
     transition: 0.3s ease-in-out;
     transform: translateY(-20px) scale(104%) ;
 }
 
-.selecao:hover > :not(:hover){
+.cueca:hover > :not(:hover){
     filter: saturate(0);
     transform: scale(0.9)
 }
