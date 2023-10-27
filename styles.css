@@ -1,9 +1,11 @@
 /* css principais, que tem em todas as principais paginas */
-#logo-bf {
-    scale: 0.6;
-    filter: invert(100%) drop-shadow(5px 5px 1px rgb(0, 0, 0));
-    margin-left: 0px;
-    margin-right: 400px;    
+
+nav .conteudo_nav{
+    display: flex;
+}
+
+nav #selected{
+    color: #FFF000;
 }
 
 nav a {
@@ -18,6 +20,13 @@ nav a:hover {
     
 }
 
+#logo-bf {
+    text-align: start;
+    scale: 0.7;
+    filter: invert(100%) drop-shadow(5px 5px 1px rgb(0, 0, 0));
+    margin-left: 0px;
+    margin-right: 660px;
+}
 nav ul {
     font-size: 30px;
     list-style-type: none;
@@ -27,6 +36,7 @@ nav ul {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 nav li{
@@ -37,9 +47,14 @@ footer {
     text-align: center;
 }
 
-footer img {
+footer #logo_github {
     filter: invert(0%);
     transition: 0.5s ease-in-out;
+}
+
+footer #logo_github:hover{
+    filter: invert(100%);
+    transition: 0.2s ease-in-out;
 }
 
 #logo_github{

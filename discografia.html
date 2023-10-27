@@ -19,18 +19,21 @@
 <body>
     
     <nav>
-        <ul>
-            <li><a href="https://pbs.twimg.com/media/Ebd7RooWsAATzQz.jpg" target="_blank"><img id="logo-bf" src="Imagens/toplogo-bf.png" alt="logo blurryface"></a></li>
+        <div class="conteudo_nav" >
 
-            <li><a href="home.html"><img id="icons" src="Imagens/Icons/homeIcon.png" alt="Home Icon">Home</a></li>
+            <a href="https://pbs.twimg.com/media/Ebd7RooWsAATzQz.jpg" target="_blank"><img id="logo-bf" src="Imagens/toplogo-bf.png" alt="logo blurryface"></a>
 
-            <li><a href="banda.html"><img id="icons" src="Imagens/Icons/bandIcon.png" alt="Band Icon">Banda</a></li>
+            <ul>
+                <li><a href="home.html">Home</a></li>
 
-            <li><a href="historia.html"><img id="icons" src="Imagens/Icons/bookIcon.png" alt="Book Icon">História</a></li>
+                <li><a href="banda.html"> Banda</a></li>
 
-            <li><a id="selected" href="discografia.html"><img id="icons" src="Imagens/Icons/albumIcon.png" alt="Album Icon">Discografia</a></li>
-            
-        </ul>
+                <li><a href="historia.html">História</a></li>
+
+                <li><a id="selected" href="discografia.html">Discografia</a></li>
+            </ul>
+        </div>
+    </div>
         <hr>
     </nav>
     
@@ -38,52 +41,58 @@
         
         <div class="selecao">
             <div>
-                <label for="item_sai"><img id="albumCovers" src="Imagens/SAI Cover.jpg" alt="Scaled And Icy Album Cover"></label>
                 <input type="checkbox" id="item_sai">
-
-
+                
                 <div class="conteudo_ativado">
-                    <iframe title="deezer-widget" src="https://widget.deezer.com/widget/dark/album/231178002" width="95%" height="450" frameborder="0" allowtransparency="true" allow="encrypted-media; clipboard-write"></iframe>
+
+                    <iframe title="deezer-widget" src="https://widget.deezer.com/widget/dark/album/231178002" width="95%" height="400" frameborder="0" allowtransparency="true" allow="encrypted-media; clipboard-write" style="border: 2px solid rgb(216, 148, 196); border-radius: 5%;"></iframe>
+
+                    <label for="item_sai"><img id="albumCovers" src="Imagens/SAI Cover.jpg" alt="Scaled And Icy Album Cover"></label>
                 </div>
             </div>
                 
             <div>
-                <label for="item_trench"><img id="albumCovers" src="Imagens/Trench Cover.jpg" alt="Trench Album Cover"></label>
-
                 <input type="checkbox" id="item_trench">
-
+                
                 <div class="conteudo_ativado">
-                    <iframe title="deezer-widget" src="https://widget.deezer.com/widget/dark/album/74606742" width="95%" height="450" frameborder="0" allowtransparency="true" allow="encrypted-media; clipboard-write"></iframe>
+                    <div class="escondido">
+                        <iframe title="deezer-widget" src="https://widget.deezer.com/widget/dark/album/74606742" width="95%" height="400" frameborder="0" allowtransparency="true" allow="encrypted-media; clipboard-write" style="border: 2px solid rgb(228, 213, 14); border-radius: 5%;"></iframe>
+                    </div>
                     
+
+                    <label for="item_trench"><img id="albumCovers" src="Imagens/Trench Cover.jpg" alt="Trench Album Cover"></label>
+
                 </div>
             </div> 
 
             <div>
-                <label for="item_bf"><img id="albumCovers" src="Imagens/BF Cover.jpg" alt="Blurryface Album Cover"></label>
                 <input type="checkbox" id="item_bf">
-            
+                
                 <div class="conteudo_ativado">
-                    <iframe title="deezer-widget" src="https://widget.deezer.com/widget/dark/album/10236282" width="95%" height="450" frameborder="0" allowtransparency="true" allow="encrypted-media; clipboard-write"></iframe>
+
+                    <iframe title="deezer-widget" src="https://widget.deezer.com/widget/dark/album/10236282" width="95%" height="400" frameborder="0" allowtransparency="true" allow="encrypted-media; clipboard-write" style="border: 2px solid rgb(221, 69, 42); border-radius: 5%;"></iframe>
+
+                    <label for="item_bf"><img id="albumCovers" src="Imagens/BF Cover.jpg" alt="Blurryface Album Cover"></label>
                 </div>
             </div>
 
             <div>
-                <label for="item_vessel"><img id="albumCovers" src="Imagens/Vessel Cover.jpg" alt="Vessel Album Cover"></label>
                 <input type="checkbox" id="item_vessel">
                 
                 <div class="conteudo_ativado">
-                    <iframe title="deezer-widget" src="https://widget.deezer.com/widget/dark/album/6176845" width="95%" height="450" frameborder="0" allowtransparency="true" allow="encrypted-media; clipboard-write"></iframe>
+                    <iframe title="deezer-widget" src="https://widget.deezer.com/widget/dark/album/6176845" width="95%" height="400" frameborder="0" allowtransparency="true" allow="encrypted-media; clipboard-write" style="border: 2px solid rgb(64, 153, 255); border-radius: 5%;"></iframe>
+                    <label for="item_vessel"><img id="albumCovers" src="Imagens/Vessel Cover.jpg" alt="Vessel Album Cover"></label>
                 </div>
             </div>
             
             <div>
-                <label for="item_selftitled"><img id="albumCovers" src="Imagens/self titled cover.jpg" alt="Self Titled Album Cover"></label>   
                 <input type="checkbox" id="item_selftitled">
+
                 <div class="conteudo_ativado">
-                    <iframe title="deezer-widget" src="https://widget.deezer.com/widget/dark/album/766260" width="95%" height="450" frameborder="0" allowtransparency="true" allow="encrypted-media; clipboard-write"></iframe>
+                    <iframe title="deezer-widget" src="https://widget.deezer.com/widget/dark/album/766260" width="95%" height="400" frameborder="0" allowtransparency="true" allow="encrypted-media; clipboard-write" style="border: 2px solid rgb(92, 212, 118); border-radius: 5%;"></iframe>
+                    <label for="item_selftitled"><img id="albumCovers" src="Imagens/self titled cover.jpg" alt="Self Titled Album Cover"></label>   
                 </div>
             </div>
-        </div>
     </div>
 
     <hr>

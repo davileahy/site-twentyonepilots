@@ -1,10 +1,12 @@
 body {
-    background-color: #121212;
-    font-family: 'Nunito', sans-serif;
-    color: whitesmoke;
-    background-image: url(Imagens/fundo_banda.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: #121212;
+    background: rgb(176,179,190);
+    background: radial-gradient(circle, rgba(176,179,190,1) 0%, rgba(80,86,89,1) 100%);
+    font-family: 'Nunito', sans-serif;
+    color: whitesmoke;
+    /* background-image: url(Imagens/fundo_banda.png); */
 }
 
 .menu{
@@ -12,12 +14,13 @@ body {
 }
 
 .selecao{
+    transform: scale(0.8);
     position: relative;
     top:0px;
     left: 0px;
 }
 
-.cueca{
+.cuecas{
     transition: 0.7s ease-in-out;
     position: absolute;
     top: 80px;
@@ -28,23 +31,56 @@ body {
 
 #tyler_cueca{
     transition: 0.5s ease-in-out;
+    
 }
 
-#josh_cueca{
-    transition: 0.5s ease-in-out;
-}
 #tyler_cueca:hover{
     transition: 0.3s ease-in-out;
     transform: translateY(-20px) scale(104%) ;
 
+}
+#josh_cueca{
+    transition: 0.5s ease-in-out;
 }
 #josh_cueca:hover{
     transition: 0.3s ease-in-out;
     transform: translateY(-20px) scale(104%) ;
 }
 
-.cueca:hover > :not(:hover){
+.cuecas:hover > :not(:hover){
     filter: saturate(0);
     transform: scale(0.9)
 }
 
+/* texto historias */
+
+html{
+    scroll-behavior: smooth;
+}
+
+.historia_tyler{
+    font-size: 18px;
+    text-align: center;
+}
+
+.historia_tyler h1{
+    color: #ffffff;
+    text-shadow: 3px 3px 2px #000000;
+}
+
+.historia_tyler img{
+    width: 200px;
+    height: 200px;
+    margin: 0px;
+    padding: 0%;
+    border-radius: 10px;
+
+}
+
+.historia_tyler h2{
+    color: rgb(0, 0, 0);
+}
+
+.historia_tyler p{
+    margin: 20px 300px 20px 300px;
+}
