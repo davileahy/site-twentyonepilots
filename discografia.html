@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Twenty One Pilots</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="Imagens/favicon.ico" type="image/x-icon">
+
+    <!-- links das CSSs -->
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="discografia.css">
 
     <!-- LINK DAS FONTES UTILIZADAS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,41 +17,93 @@
 </head>
 
 <body>
-
-    <style>
-        body {
-            background-image: url(Imagens/twentyonepilots\ show\ trees.jpeg);
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-    </style>
-
+    
     <nav>
-        <a href="https://pbs.twimg.com/media/Ebd7RooWsAATzQz.jpg" target="_blank"><img id="logo-bf" src="Imagens/toplogo-bf.png" alt="logo blurryface"></a>
-        <ul>
-            <li><a href="home.html"><strong>Home</strong></a></li>
-            <li><a href="banda.html"><strong>Banda</strong></a></li>
-            <li><a href="historia.html"><strong>História</strong></a></li>
-            <li><a href="discografia.html"><strong>Discografia</strong></a></li>
-        </ul>
+        <div class="conteudo_nav" >
+
+            <a href="https://pbs.twimg.com/media/Ebd7RooWsAATzQz.jpg" target="_blank"><img id="logo-bf" src="Imagens/toplogo-bf.png" alt="logo blurryface"></a>
+
+            <ul>
+                <li><a href="home.html">Home</a></li>
+
+                <li><a href="banda.html"> Banda</a></li>
+
+                <li><a href="historia.html">História</a></li>
+
+                <li><a id="selected" href="discografia.html">Discografia</a></li>
+            </ul>
+        </div>
+    </div>
+        <hr>
     </nav>
     
-    <h1>Discografia</h1>
+    <div class="albuns">
+        
+        <div class="selecao">
+            <div>
+                <input type="checkbox" id="item_sai">
+                
+                <div class="conteudo_ativado">
 
-    <div class="centerImages">
-        <ul>
-            <li><img src="Imagens/SAI Cover.jpg" alt="Scaled And Icy Album Cover">
-            <li><img src="Imagens/Trench Cover.jpg" alt="Trench Album Cover">
-            <li><img src="Imagens/BF Cover.jpg" alt="Blurryface Album Cover">
-            <li><img src="Imagens/Vessel Cover.jpg" alt="Vessel Album Cover">
-            <li><img src="Imagens/self titled cover.png" alt="Self Titled Album Cover">
-        </ul>
+                    <iframe title="deezer-widget" src="https://widget.deezer.com/widget/dark/album/231178002" width="95%" height="400" frameborder="0" allowtransparency="true" allow="encrypted-media; clipboard-write" style="border: 2px solid rgb(216, 148, 196); border-radius: 5%;"></iframe>
+
+                    <label for="item_sai"><img id="albumCovers" src="Imagens/SAI Cover.jpg" alt="Scaled And Icy Album Cover"></label>
+                </div>
+            </div>
+                
+            <div>
+                <input type="checkbox" id="item_trench">
+                
+                <div class="conteudo_ativado">
+                    <div class="escondido">
+                        <iframe title="deezer-widget" src="https://widget.deezer.com/widget/dark/album/74606742" width="95%" height="400" frameborder="0" allowtransparency="true" allow="encrypted-media; clipboard-write" style="border: 2px solid rgb(228, 213, 14); border-radius: 5%;"></iframe>
+                    </div>
+                    
+
+                    <label for="item_trench"><img id="albumCovers" src="Imagens/Trench Cover.jpg" alt="Trench Album Cover"></label>
+
+                </div>
+            </div> 
+
+            <div>
+                <input type="checkbox" id="item_bf">
+                
+                <div class="conteudo_ativado">
+
+                    <iframe title="deezer-widget" src="https://widget.deezer.com/widget/dark/album/10236282" width="95%" height="400" frameborder="0" allowtransparency="true" allow="encrypted-media; clipboard-write" style="border: 2px solid rgb(221, 69, 42); border-radius: 5%;"></iframe>
+
+                    <label for="item_bf"><img id="albumCovers" src="Imagens/BF Cover.jpg" alt="Blurryface Album Cover"></label>
+                </div>
+            </div>
+
+            <div>
+                <input type="checkbox" id="item_vessel">
+                
+                <div class="conteudo_ativado">
+                    <iframe title="deezer-widget" src="https://widget.deezer.com/widget/dark/album/6176845" width="95%" height="400" frameborder="0" allowtransparency="true" allow="encrypted-media; clipboard-write" style="border: 2px solid rgb(64, 153, 255); border-radius: 5%;"></iframe>
+                    <label for="item_vessel"><img id="albumCovers" src="Imagens/Vessel Cover.jpg" alt="Vessel Album Cover"></label>
+                </div>
+            </div>
+            
+            <div>
+                <input type="checkbox" id="item_selftitled">
+
+                <div class="conteudo_ativado">
+                    <iframe title="deezer-widget" src="https://widget.deezer.com/widget/dark/album/766260" width="95%" height="400" frameborder="0" allowtransparency="true" allow="encrypted-media; clipboard-write" style="border: 2px solid rgb(92, 212, 118); border-radius: 5%;"></iframe>
+                    <label for="item_selftitled"><img id="albumCovers" src="Imagens/self titled cover.jpg" alt="Self Titled Album Cover"></label>   
+                </div>
+            </div>
     </div>
 
     <hr>
     <footer>
-        <img id="logo-sai" src="Imagens/top sai logo.png" alt="Logo Scaled And Icy">
         <p>Copyright&copy; Twenty One Pilots&trade; 2023 &psi;</p>
+        <img id="logo-sai" src="Imagens/top sai logo.png" alt="Logo Scaled And Icy">
+
+    <div>
+        <a href="https://github.com/davileahy/site-twentyonepilots" target="_blank"><img id="logo_github" src="Imagens/github logo.png" alt="logo github"></a>
+    </div>
+    
     </footer>
 </body>
 

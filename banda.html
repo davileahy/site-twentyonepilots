@@ -1,36 +1,101 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Twenty One Pilots</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="Imagens/favicon.ico" type="image/x-icon">
+
+    <!-- links das CSSs -->
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="banda.css">
 
     <!-- LINK DAS FONTES UTILIZADAS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Nunito:ital,wght@0,600;1,800&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Nunito:ital,wght@0,600;1,800&family=Roboto:wght@100&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    
+
     <nav>
-        <a href="https://pbs.twimg.com/media/Ebd7RooWsAATzQz.jpg" target="_blank"><img id="logo-bf" src="Imagens/toplogo-bf.png" alt="logo blurryface"></a>
-        <ul>
-            <li><a href="home.html"><strong>Home</strong></a></li>
-            <li><a href="banda.html"><strong>Banda</strong></a></li>
-            <li><a href="historia.html"><strong>História</strong></a></li>
-            <li><a href="discografia.html"><strong>Discografia</strong></a></li>
-        </ul>
+        <div class="conteudo_nav" >
+
+            <a href="https://pbs.twimg.com/media/Ebd7RooWsAATzQz.jpg" target="_blank"><img id="logo-bf" src="Imagens/toplogo-bf.png" alt="logo blurryface"></a>
+
+            <ul>
+                <li><a href="home.html">Home</a></li>
+
+                <li><a id="selected" href="banda.html"> Banda</a></li>
+
+                <li><a href="historia.html">História</a></li>
+
+                <li><a href="discografia.html">Discografia</a></li>
+            </ul>
+        </div>
+        <hr>
     </nav>
+
+    <div class="menu">
+
+        <div class="selecao">
+            <img src="Imagens/fundo_grammy.png" alt="fundo">
+            <div class="cuecas">
+                <a href="#historia_tyler"><img id="tyler_cueca" src="Imagens/tyler_cueca.png" alt="tyler cueca"></a>
+                <a href="#historia_josh"><img id="josh_cueca" src="Imagens/josh_cueca.png" alt="josh cueca"> </a>
+            </div>
+        </div>
+    </div>
+        <div id="historia_tyler" class="historia_tyler">
+            <h1>Tyler Robert Joseph </h1>
+            <img src="Imagens/tyler_wiki.jpg" alt="foto tyler">
+
+            <div class="coluna">
+                <h2>Vida</h2>
+                <hr width="30%">
+                <p>Tyler nasceu em Columbus, Ohio, e cresceu com dois irmãos, Zack (também um cantor), Jay, e uma irmã, Madison. Sua mãe, Kelly, era professora de matemática, e seu Pai Chris era diretor da escola.</p>
+                <p>Tyler jogou basquete desde muito jovem e passou a jogar de armador para a Worthington Christian. Em 2008, a equipe de basquete ficou em segundo lugar no torneio estadual da Divisão IV.</p>
+                <p> Depois de ver um compositor se apresentar em um clube da High Street, ele rejeitou uma oferta de basquete da Universidade Otterbein e começou a tocar música depois de encontrar um teclado velho em seu armário, um presente de Natal de sua mãe, e imitando melodias de rádio.</p>
+            </div>
+
+            <div class="coluna">
+                <h2>Carreira</h2>
+                <hr width="30%">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta fugit voluptate velit, asperiores ducimus placeat soluta. Iusto maiores, sit ducimus doloremque praesentium sunt voluptate nulla quam quae asperiores fugit modi.</p>
+                <hr width="70%">
+            </div>
+
+            <div id="historia_josh" class="historia_josh">
+                <h1>Josh Dun </h1>
+                <img src="Imagens/josh_wiki.jpg" alt="foto josh">
     
-    <h1>A Banda.</h1>
+                <div class="coluna">
+                    <h2>Vida</h2>
+                    <hr width="30%">
+                    <p>Josh nasceu em Columbus, Ohio, e cresceu com duas irmãs, Ashley e Abigail, e um irmão, Jordan. Crescendo, ele era um baterista autodidata. De acordo com Josh, ele iria de skate até a loja de música local, onde ele iria para comprar discos e imitar as batidas em um kit de bateria eletrônica. </p>
+                    <p>Seus pais estabeleceram regras estritas sobre o tipo de música que ele foi autorizado a ouvir, então em vez disso ele pediu às pessoas na loja para recomendar álbuns para ele. "Eu escondia álbuns de bandas como Green Day Dookie sob minha cama," Josh disse. "Às vezes eles os encontravam e ficavam loucos, achavam alguma coisa cristã, como o Relient K, e me faziam escutar isso".</p>
+                </div>
+    
+                <div class="coluna">
+                    <h2>Carreira</h2>
+                    <hr width="30%">
+                    <p>Em 2011, Josh foi convidado pelo ex-baterista do Twenty One Pilots, Chris Salih, para um de seus concertos depois de ouvir o CD demo original da banda. Ele ficou impressionado com o desempenho do trio, e ele se reuniu e fez amizade com o vocalista da banda, Tyler Joseph, depois do show.</p>
+        
+                </div>
+        </div>
 
     <hr>
     <footer>
-        <img id="logo-sai" src="Imagens/top sai logo.png" alt="Logo Scaled And Icy">
         <p>Copyright&copy; Twenty One Pilots&trade; 2023 &psi;</p>
+        <img id="logo-sai" src="Imagens/top sai logo.png" alt="Logo Scaled And Icy">
+
+    <div>
+        <a href="https://github.com/davileahy/site-twentyonepilots" target="_blank"><img id="logo_github" src="Imagens/github logo.png" alt="logo github"></a>
+    </div>
+    
     </footer>
 </body>
 
